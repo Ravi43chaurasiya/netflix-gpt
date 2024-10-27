@@ -32,7 +32,15 @@ BugFix:if the user is not nogged in redirect to login page and vice-versa
   - fetch data for trailer video
   - update store with trailer video data
   - Embeded the yutube video and make it autoplay and mute
-  - 
+  - build secondary component
+    - movie list
+     - movie card
+    - now playing movies
+    - popular movies
+    - top rated movies
+    - custom hooks for the above three
+    
+  
   
 
 
