@@ -1,0 +1,1 @@
+export const langVarConstant=[{identifire:"en",name:"English"},{identifire:"hindi",name:"Hindi"},{identifire:"spanish",name:"Spanish"}];

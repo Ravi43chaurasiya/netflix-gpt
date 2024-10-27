@@ -39,7 +39,12 @@ BugFix:if the user is not nogged in redirect to login page and vice-versa
     - popular movies
     - top rated movies
     - custom hooks for the above three
-    
+  - GPT Search Feature
+   - gpt search page
+   - gpt search bar
+   - multi language feature in our gpt search page
+   
+
   
   
 

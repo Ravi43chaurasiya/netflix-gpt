@@ -7,6 +7,7 @@ import {  signInWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { BG_URL } from '../utils/constant';
 
 
 const Login = () => {
@@ -86,7 +87,7 @@ const Login = () => {
     <div>
       <Header></Header>
       <div >
-        <img className='absolute' src='https://assets.nflxext.com/ffe/siteui/vlv3/f272782d-cf96-4988-a675-6db2afd165e0/web/IN-en-20241008-TRIFECTA-perspective_b28b640f-cee0-426b-ac3a-7c000d3b41b7_large.jpg' alt='background image'></img>
+        <img className='absolute' src={BG_URL} alt='background image'></img>
       </div>
 
       <form onSubmit={(e)=>e.preventDefault()} className='bg-black text-white absolute w-3/12 p-12 my-36 mx-auto right-0 left-0 opacity-90'> 
