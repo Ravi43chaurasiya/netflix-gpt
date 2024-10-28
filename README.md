@@ -43,7 +43,31 @@ BugFix:if the user is not nogged in redirect to login page and vice-versa
    - gpt search page
    - gpt search bar
    - multi language feature in our gpt search page
-   
+  - get openAI key from plateform.openAI->login if not==>profile=>api key
+  - npm openAi(search)
+    - npm install openai
+    - import OpenAI from 'openai';
+
+- const client = new OpenAI({
+ -  apiKey: process.env['OPENAI_API_KEY'], // This  - is the default and can be omitted
+- });
+- see gptsearchBar.js for 
+- {
+  const chatCompletion = await client.chat.completions.create({
+    messages: [{ role: 'user', content: 'Say this is a test' }],
+    model: 'gpt-3.5-turbo',
+  });
+- }
+
+- search npm openai to know more .
+
+- created movies card based on the gpt result on search page.
+- .env file included to secure the api keys of open ai and tmdb.
+
+
+
+  
+
 
   
   
