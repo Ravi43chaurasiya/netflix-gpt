@@ -64,6 +64,8 @@ BugFix:if the user is not nogged in redirect to login page and vice-versa
 - created movies card based on the gpt result on search page.
 - .env file included to secure the api keys of open ai and tmdb.
 
+- memoization
+
 
 
   
